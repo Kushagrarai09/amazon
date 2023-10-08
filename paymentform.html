@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title style="color: rgb(240, 138, 12);">PAYMENT FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        p{
+            color:#860c55;
+        }
+        .collor{ 
+color:green;
+        }
+        #add{
+            color:blueviolet;
+        }
+        *{
+            background-image url("html/img.jpg");
+            background-repeat: ;
+            height: ;
+            width: ;
+        }
+    </style>
+
+</head>
+<body>
+<form>
+    <h1  style="background-color:yellow" text-align:;">PAYMENT FORM</h1>
+    <h2>Contact Information</h2>
+    <p>Name: <input type="text" name="name" required>  </p>
+    <fieldset>
+     <legend>GENDER</legend>
+    <p>Male <input type="radio" name="gender">
+       Female <input type="radio" name="gender"></p>
+    </fieldset>
+<p id="add">Address: <textarea name="address" cols="50" rows="5"></textarea></p>
+<p> Email: <input type="email" name="email"> </p>
+<p> Pincode <input type="number" name="pincode"></p> 
+
+<h2>Payment Details</h2>
+<p class="collor">Card Type:
+    <select name="card_type">
+        <option value="">--Select a card type--</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value ="rupay">Rupay</option>
+    </select>
+</p>
+<p> Card Number:<input type="number" name="card number"></p>
+<p> Expiration Date: <input type="date" name="expiration date"></p>
+<p>CVV: <input type="password" name="CVV"></p>
+<input type="submit" value="PAY NOW">
+</form>
+
+
+</body>
